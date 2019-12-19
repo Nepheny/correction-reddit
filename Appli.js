@@ -6,13 +6,14 @@ import {createStackNavigator} from 'react-navigation-stack';
 
 
 import HomeScreen from './src/routes/homeScreen' ;
-import Login from './src/routes/login' ;
-import Register from './src/routes/register' ;
+import LoginScreen from './src/routes/loginScreen' ;
 import UserProfile from './src/routes/userAccount' ;
 import DetailPost from './src/routes/detailPost' ;
 import AboutScreen from './src/routes/aboutScreen' ;
 import Icon from 'react-native-vector-icons/FontAwesome5';
 import {TouchableOpacity} from 'react-native';
+
+import User from "./src/lib/user" ;
 
 
 const MenuElement = (route, screen, title, label) => {
